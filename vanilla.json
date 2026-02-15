@@ -1,19 +1,608 @@
 {
-  "version": 2,
+  "version": ,
   "production": [
     {
-      "dinoType": "Blueprint'/Game/ScorchedEarth/Dinos/Phoenix/Phoenix_Character_BP.Phoenix_Character_BP'",
+      "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/Dodo/Dodo_Character_BP.Dodo_Character_BP'",
       "chanceToProduce": 1,
       "produces": [
         {
-          "intervalSeconds": 240,
+          "intervalSeconds": 2400,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Fiber.PrimalItemResource_Fiber'",
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 20000,
+              "quantityPerDino": 5,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0.25,
+              "alternateItems": [
+                {
+                  "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Thatch.PrimalItemResource_Thatch'",
+                  "quantityPerItem": 5,
+                  "maxQuantityPerCycle": 0,
+                  "maxQuantityInTerminal": 20000
+                }
+              ],
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/Moschops/Moschops_Character_BP.Moschops_Character_BP'",
+      "chanceToProduce": 1,
+      "produces": [
+        {
+          "intervalSeconds": 2400,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Berry_Amarberry.PrimalItemResource_Berry_Amarberry'",
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 15000,
+              "quantityPerDino": 10,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0.6,
+              "alternateItems": [
+                {
+                  "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Berry_Azulberry.PrimalItemResource_Berry_Azulberry'",
+                  "quantityPerItem": 10,
+                  "maxQuantityPerCycle": 0,
+                  "maxQuantityInTerminal": 15000
+                }
+              ],
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            }
+          ]
+        },
+        {
+          "intervalSeconds": 3600,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Berry_Tintoberry.PrimalItemResource_Berry_Tintoberry'",
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 15000,
+              "quantityPerDino": 10,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0.35,
+              "alternateItems": [
+                {
+                  "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Berry_Narcoberry.PrimalItemResource_Berry_Narcoberry'",
+                  "quantityPerItem": 5,
+                  "maxQuantityPerCycle": 0,
+                  "maxQuantityInTerminal": 8000
+                }
+              ],
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/Triceratops/Trike_Character_BP.Trike_Character_BP'",
+      "chanceToProduce": 1,
+      "produces": [
+        {
+          "intervalSeconds": 3600,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Berry_Mejoberry.PrimalItemResource_Berry_Mejoberry'",
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 12000,
+              "quantityPerDino": 8,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0.2,
+              "alternateItems": [
+                {
+                  "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Thatch.PrimalItemResource_Thatch'",
+                  "quantityPerItem": 10,
+                  "maxQuantityPerCycle": 0,
+                  "maxQuantityInTerminal": 20000
+                }
+              ],
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/Beaver/Beaver_Character_BP.Beaver_Character_BP'",
+      "chanceToProduce": 1,
+      "produces": [
+        {
+          "intervalSeconds": 3600,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Wood.PrimalItemResource_Wood'",
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 20000,
+              "quantityPerDino": 8,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0.15,
+              "alternateItems": [
+                {
+                  "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareMushroom.PrimalItemResource_RareMushroom'",
+                  "quantityPerItem": 1,
+                  "maxQuantityPerCycle": 0,
+                  "maxQuantityInTerminal": 3000
+                }
+              ],
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/Mammoth/Mammoth_Character_BP.Mammoth_Character_BP'",
+      "chanceToProduce": 1,
+      "produces": [
+        {
+          "intervalSeconds": 4200,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Wood.PrimalItemResource_Wood'",
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 25000,
+              "quantityPerDino": 10,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0.2,
+              "alternateItems": [
+                {
+                  "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Thatch.PrimalItemResource_Thatch'",
+                  "quantityPerItem": 10,
+                  "maxQuantityPerCycle": 0,
+                  "maxQuantityInTerminal": 25000
+                }
+              ],
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/Doedicurus/Doed_Character_BP.Doed_Character_BP'",
+      "chanceToProduce": 1,
+      "produces": [
+        {
+          "intervalSeconds": 3600,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Stone.PrimalItemResource_Stone'",
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 50000,
+              "quantityPerDino": 20,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0.25,
+              "alternateItems": [
+                {
+                  "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Flint.PrimalItemResource_Flint'",
+                  "quantityPerItem": 8,
+                  "maxQuantityPerCycle": 0,
+                  "maxQuantityInTerminal": 25000
+                }
+              ],
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/Ankylo/Ankylo_Character_BP.Ankylo_Character_BP'",
+      "chanceToProduce": 1,
+      "produces": [
+        {
+          "intervalSeconds": 5400,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Metal.PrimalItemResource_Metal'",
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 20000,
+              "quantityPerDino": 6,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0.2,
+              "alternateItems": [
+                {
+                  "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Obsidian.PrimalItemResource_Obsidian'",
+                  "quantityPerItem": 2,
+                  "maxQuantityPerCycle": 0,
+                  "maxQuantityInTerminal": 4000
+                }
+              ],
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/Archaeopteryx/Archa_Character_BP.Archa_Character_BP'",
+      "chanceToProduce": 1,
+      "produces": [
+        {
+          "intervalSeconds": 3600,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Sap.PrimalItemResource_Sap'",
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 8000,
+              "quantityPerDino": 1,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0,
+              "alternateItems": [],
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/Beelzebufo/Toad_Character_BP.Toad_Character_BP'",
+      "chanceToProduce": 1,
+      "produces": [
+        {
+          "intervalSeconds": 5400,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Chitin.PrimalItemResource_Chitin'",
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 15000,
+              "quantityPerDino": 6,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0.2,
+              "alternateItems": [
+                {
+                  "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_CementingPaste.PrimalItemResource_CementingPaste'",
+                  "quantityPerItem": 2,
+                  "maxQuantityPerCycle": 0,
+                  "maxQuantityInTerminal": 12000
+                }
+              ],
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/Castoroides/Castoroides_Character_BP.Castoroides_Character_BP'",
+      "chanceToProduce": 1,
+      "produces": [
+        {
+          "intervalSeconds": 5400,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_CementingPaste.PrimalItemResource_CementingPaste'",
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 15000,
+              "quantityPerDino": 3,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0.15,
+              "alternateItems": [
+                {
+                  "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Silicon.PrimalItemResource_Silicon'",
+                  "quantityPerItem": 1,
+                  "maxQuantityPerCycle": 0,
+                  "maxQuantityInTerminal": 6000
+                }
+              ],
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/DungBeetle/DungBeetle_Character_BP.DungBeetle_Character_BP'",
+      "chanceToProduce": 1,
+      "produces": [
+        {
+          "intervalSeconds": 3600,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Oil.PrimalItemResource_Oil'",
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 15000,
+              "quantityPerDino": 2,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0,
+              "alternateItems": [],
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            },
+            {
+              "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Fertilizer_Compost.PrimalItemConsumable_Fertilizer_Compost'",
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 8000,
+              "quantityPerDino": 1,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0,
+              "alternateItems": [],
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 1,
+              "consumesItems": [
+                {
+                  "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumablePoop.PrimalItemConsumablePoop'",
+                  "quantityPerItem": 1,
+                  "maxQuantityPerCycle": 0,
+                  "maxQuantityInTerminal": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/Bee/Bee_Queen_Character_BP.Bee_Queen_Character_BP'",
+      "chanceToProduce": 1,
+      "produces": [
+        {
+          "intervalSeconds": 2400,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Honey.PrimalItemConsumable_Honey'",
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 8000,
+              "quantityPerDino": 1,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0,
+              "alternateItems": [],
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/Achatina/Achatina_Character_BP.Achatina_Character_BP'",
+      "chanceToProduce": 1,
+      "produces": [
+        {
+          "intervalSeconds": 1200,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "Blueprint'/Game/PrimalEarth/Dinos/Achatina/PrimalItemResource_SnailPaste.PrimalItemResource_SnailPaste'",
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 15000,
+              "quantityPerDino": 1,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0,
+              "alternateItems": [],
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            }
+          ]
+        },
+        {
+          "intervalSeconds": 7200,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Polymer_Organic.PrimalItemResource_Polymer_Organic'",
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 12000,
+              "quantityPerDino": 1,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0,
+              "alternateItems": [],
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/Anglerfish/Angler_Character_BP.Angler_Character_BP'",
+      "chanceToProduce": 1,
+      "produces": [
+        {
+          "intervalSeconds": 5400,
           "itemSelectMode": 0,
           "items": [
             {
               "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Silicon.PrimalItemResource_Silicon'",
               "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 12000,
+              "quantityPerDino": 3,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0.15,
+              "alternateItems": [
+                {
+                  "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_BlackPearl.PrimalItemResource_BlackPearl'",
+                  "quantityPerItem": 1,
+                  "maxQuantityPerCycle": 0,
+                  "maxQuantityInTerminal": 3000
+                }
+              ],
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/Basilosaurus/Basilosaurus_Character_BP.Basilosaurus_Character_BP'",
+      "chanceToProduce": 1,
+      "produces": [
+        {
+          "intervalSeconds": 5400,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "Blueprint'/Game/PrimalEarth/Dinos/Tusoteuthis/PrimalItemResource_SquidOil.PrimalItemResource_SquidOil'",
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 12000,
+              "quantityPerDino": 2,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0,
+              "alternateItems": [],
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/Tusoteuthis/Tusoteuthis_Character_BP.Tusoteuthis_Character_BP'",
+      "chanceToProduce": 1,
+      "produces": [
+        {
+          "intervalSeconds": 7200,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "Blueprint'/Game/PrimalEarth/Dinos/Tusoteuthis/PrimalItemResource_SquidOil.PrimalItemResource_SquidOil'",
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 15000,
+              "quantityPerDino": 3,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0.2,
+              "alternateItems": [
+                {
+                  "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_BlackPearl.PrimalItemResource_BlackPearl'",
+                  "quantityPerItem": 1,
+                  "maxQuantityPerCycle": 0,
+                  "maxQuantityInTerminal": 4000
+                }
+              ],
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/Sheep/Sheep_Character_BP.Sheep_Character_BP'",
+      "chanceToProduce": 1,
+      "produces": [
+        {
+          "intervalSeconds": 5400,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Wool.PrimalItemResource_Wool'",
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 12000,
+              "quantityPerDino": 2,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0,
+              "alternateItems": [],
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/Kairuku/Kairuku_Character_BP.Kairuku_Character_BP'",
+      "chanceToProduce": 1,
+      "produces": [
+        {
+          "intervalSeconds": 5400,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Polymer_Organic.PrimalItemResource_Polymer_Organic'",
+              "maxQuantityPerCycle": 0,
               "maxQuantityInTerminal": 10000,
               "quantityPerDino": 1,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0,
+              "alternateItems": [],
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "dinoType": "Blueprint'/Game/ScorchedEarth/Dinos/Phoenix/Phoenix_Character_BP.Phoenix_Character_BP'",
+      "chanceToProduce": 1,
+      "produces": [
+        {
+          "intervalSeconds": 5400,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Silicon.PrimalItemResource_Silicon'",
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 15000,
+              "quantityPerDino": 2,
               "alternateSelectMode": 0,
               "alternateItemsChance": 0.1,
               "alternateItems": [
@@ -34,400 +623,7 @@
     },
 
     {
-      "dinoType": "/ARKOzoneAscended/Dinos/TierII/Tongs/Rex/Tongs_Rex_Character_BP.Tongs_Rex_Character_BP",
-      "chanceToProduce": 1,
-      "produces": [
-        {
-          "intervalSeconds": 10,
-          "itemSelectMode": 0,
-          "items": [
-            {
-              "bpPath": "/ARKOzoneAscended/Items/TierII/Tongs/Egg/PrimalItemConsumable_Tongs_Egg.PrimalItemConsumable_Tongs_Egg",
-              "maxQuantityPerCycle": 1,
-              "maxQuantityInTerminal": 10000,
-              "quantityPerDino": 1,
-              "alternateSelectMode": 0,
-              "alternateItemsChance": 0.1,
-              "alternateItems": [
-                {
-                  "bpPath": "/ARKOzoneAscended/Items/TierII/Tongs/Egg/PrimalItemConsumable_Tongs_Egg.PrimalItemConsumable_Tongs_Egg",
-                  "quantityPerItem": 1,
-                  "maxQuantityPerCycle": 0,
-                  "maxQuantityInTerminal": 3000
-                }
-              ],
-              "comsumesSelectMode": 0,
-              "consumesItemsChance": 0,
-              "consumesItems": []
-            }
-          ]
-        }
-      ]
-    },
-
-    {
-      "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/Achatina/Achatina_Character_BP.Achatina_Character_BP'",
-      "chanceToProduce": 1,
-      "produces": [
-        {
-          "intervalSeconds": 60,
-          "itemSelectMode": 0,
-          "items": [
-            {
-              "bpPath": "Blueprint'/Game/PrimalEarth/Dinos/Achatina/PrimalItemResource_SnailPaste.PrimalItemResource_SnailPaste'",
-              "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 10000,
-              "quantityPerDino": 1,
-              "alternateSelectMode": 0,
-              "alternateItemsChance": 0,
-              "alternateItems": [],
-              "comsumesSelectMode": 0,
-              "consumesItemsChance": 0,
-              "consumesItems": []
-            }
-          ]
-        },
-        {
-          "intervalSeconds": 1800,
-          "itemSelectMode": 0,
-          "items": [
-            {
-              "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Polymer_Organic.PrimalItemResource_Polymer_Organic'",
-              "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 10000,
-              "quantityPerDino": 1,
-              "alternateSelectMode": 0,
-              "alternateItemsChance": 0,
-              "alternateItems": [],
-              "comsumesSelectMode": 0,
-              "consumesItemsChance": 0,
-              "consumesItems": []
-            }
-          ]
-        }
-      ]
-    },
-
-    {
-      "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/Achatina/Achatina_Character_BP_Aberrant.Achatina_Character_BP_Aberrant'",
-      "chanceToProduce": 1,
-      "produces": [
-        {
-          "intervalSeconds": 60,
-          "itemSelectMode": 0,
-          "items": [
-            {
-              "bpPath": "Blueprint'/Game/PrimalEarth/Dinos/Achatina/PrimalItemResource_SnailPaste.PrimalItemResource_SnailPaste'",
-              "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 10000,
-              "quantityPerDino": 1,
-              "alternateSelectMode": 0,
-              "alternateItemsChance": 0,
-              "alternateItems": [],
-              "comsumesSelectMode": 0,
-              "consumesItemsChance": 0,
-              "consumesItems": []
-            }
-          ]
-        },
-        {
-          "intervalSeconds": 1800,
-          "itemSelectMode": 0,
-          "items": [
-            {
-              "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Polymer_Organic.PrimalItemResource_Polymer_Organic'",
-              "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 10000,
-              "quantityPerDino": 1,
-              "alternateSelectMode": 0,
-              "alternateItemsChance": 0,
-              "alternateItems": [],
-              "comsumesSelectMode": 0,
-              "consumesItemsChance": 0,
-              "consumesItems": []
-            }
-          ]
-        }
-      ]
-    },
-
-    {
-      "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/Basilosaurus/Basilosaurus_Character_BP.Basilosaurus_Character_BP'",
-      "chanceToProduce": 1,
-      "produces": [
-        {
-          "intervalSeconds": 240,
-          "itemSelectMode": 0,
-          "items": [
-            {
-              "bpPath": "Blueprint'/Game/PrimalEarth/Dinos/Tusoteuthis/PrimalItemResource_SquidOil.PrimalItemResource_SquidOil'",
-              "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 10000,
-              "quantityPerDino": 1,
-              "alternateSelectMode": 0,
-              "alternateItemsChance": 0,
-              "alternateItems": [],
-              "comsumesSelectMode": 0,
-              "consumesItemsChance": 0,
-              "consumesItems": []
-            }
-          ]
-        }
-      ]
-    },
-
-    {
-      "dinoType": "Blueprint'/Game/Genesis/Dinos/BiomeVariants/Ocean_Basilosaurus/Ocean_Basilosaurus_Character_BP.Ocean_Basilosaurus_Character_BP'",
-      "chanceToProduce": 1,
-      "produces": [
-        {
-          "intervalSeconds": 240,
-          "itemSelectMode": 0,
-          "items": [
-            {
-              "bpPath": "Blueprint'/Game/PrimalEarth/Dinos/Tusoteuthis/PrimalItemResource_SquidOil.PrimalItemResource_SquidOil'",
-              "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 10000,
-              "quantityPerDino": 1,
-              "alternateSelectMode": 0,
-              "alternateItemsChance": 0,
-              "alternateItems": [],
-              "comsumesSelectMode": 0,
-              "consumesItemsChance": 0,
-              "consumesItems": []
-            }
-          ]
-        }
-      ]
-    },
-
-    {
-      "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/Tusoteuthis/Tusoteuthis_Character_BP.Tusoteuthis_Character_BP'",
-      "chanceToProduce": 1,
-      "produces": [
-        {
-          "intervalSeconds": 240,
-          "itemSelectMode": 0,
-          "items": [
-            {
-              "bpPath": "Blueprint'/Game/PrimalEarth/Dinos/Tusoteuthis/PrimalItemResource_SquidOil.PrimalItemResource_SquidOil'",
-              "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 10000,
-              "quantityPerDino": 1,
-              "alternateSelectMode": 0,
-              "alternateItemsChance": 0,
-              "alternateItems": [],
-              "comsumesSelectMode": 0,
-              "consumesItemsChance": 0,
-              "consumesItems": []
-            }
-          ]
-        }
-      ]
-    },
-
-    {
-      "dinoType": "Blueprint'/Game/Genesis/Dinos/GiantTurtle/GiantTurtle_Character_BP.GiantTurtle_Character_BP'",
-      "chanceToProduce": 1,
-      "produces": [
-        {
-          "intervalSeconds": 240,
-          "itemSelectMode": 0,
-          "items": [
-            {
-              "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareFlower.PrimalItemResource_RareFlower'",
-              "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 5000,
-              "quantityPerDino": 1,
-              "alternateSelectMode": 0,
-              "alternateItemsChance": 0,
-              "alternateItems": [],
-              "comsumesSelectMode": 0,
-              "consumesItemsChance": 0,
-              "consumesItems": []
-            },
-            {
-              "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareMushroom.PrimalItemResource_RareMushroom'",
-              "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 5000,
-              "quantityPerDino": 1,
-              "alternateSelectMode": 0,
-              "alternateItemsChance": 0,
-              "alternateItems": [],
-              "comsumesSelectMode": 0,
-              "consumesItemsChance": 0,
-              "consumesItems": []
-            }
-          ]
-        }
-      ]
-    },
-
-    {
-      "dinoType": "Blueprint'/Game/Genesis2/Dinos/TekStrider/TekStrider_Character_BP.TekStrider_Character_BP'",
-      "chanceToProduce": 1,
-      "produces": [
-        {
-          "intervalSeconds": 240,
-          "itemSelectMode": 0,
-          "items": [
-            {
-              "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ElementShard.PrimalItemResource_ElementShard'",
-              "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 0,
-              "quantityPerDino": 5000,
-              "alternateSelectMode": 0,
-              "alternateItemsChance": 0,
-              "alternateItems": [],
-              "comsumesSelectMode": 0,
-              "consumesItemsChance": 0,
-              "consumesItems": []
-            }
-          ]
-        }
-      ]
-    },
-
-    {
-      "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/Bee/Bee_Queen_Character_BP.Bee_Queen_Character_BP'",
-      "chanceToProduce": 1,
-      "produces": [
-        {
-          "intervalSeconds": 240,
-          "itemSelectMode": 0,
-          "items": [
-            {
-              "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Honey.PrimalItemConsumable_Honey'",
-              "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 10000,
-              "quantityPerDino": 1,
-              "alternateSelectMode": 0,
-              "alternateItemsChance": 0,
-              "alternateItems": [],
-              "comsumesSelectMode": 0,
-              "consumesItemsChance": 0,
-              "consumesItems": []
-            }
-          ]
-        }
-      ]
-    },
-
-    {
-      "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/DungBeetle/DungBeetle_Character_BP.DungBeetle_Character_BP'",
-      "chanceToProduce": 1,
-      "produces": [
-        {
-          "intervalSeconds": 900,
-          "itemSelectMode": 0,
-          "items": [
-            {
-              "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Oil.PrimalItemResource_Oil'",
-              "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 10000,
-              "quantityPerDino": 1,
-              "alternateSelectMode": 0,
-              "alternateItemsChance": 0,
-              "alternateItems": [],
-              "comsumesSelectMode": 0,
-              "consumesItemsChance": 0,
-              "consumesItems": []
-            },
-            {
-              "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Fertilizer_Compost.PrimalItemConsumable_Fertilizer_Compost'",
-              "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 0,
-              "quantityPerDino": 1,
-              "alternateSelectMode": 0,
-              "alternateItemsChance": 0,
-              "alternateItems": [],
-              "comsumesSelectMode": 0,
-              "consumesItemsChance": 1,
-              "consumesItems": [
-                {
-                  "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumablePoop.PrimalItemConsumablePoop'",
-                  "quantityPerItem": 1,
-                  "maxQuantityPerCycle": 0,
-                  "maxQuantityInTerminal": 0
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-
-    {
-      "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/DungBeetle/DungBeetle_Character_BP_Aberrant.DungBeetle_Character_BP_Aberrant'",
-      "chanceToProduce": 1,
-      "produces": [
-        {
-          "intervalSeconds": 900,
-          "itemSelectMode": 0,
-          "items": [
-            {
-              "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Oil.PrimalItemResource_Oil'",
-              "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 10000,
-              "quantityPerDino": 1,
-              "alternateSelectMode": 0,
-              "alternateItemsChance": 0,
-              "alternateItems": [],
-              "comsumesSelectMode": 0,
-              "consumesItemsChance": 0,
-              "consumesItems": []
-            },
-            {
-              "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Fertilizer_Compost.PrimalItemConsumable_Fertilizer_Compost'",
-              "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 0,
-              "quantityPerDino": 1,
-              "alternateSelectMode": 0,
-              "alternateItemsChance": 0,
-              "alternateItems": [],
-              "comsumesSelectMode": 0,
-              "consumesItemsChance": 1,
-              "consumesItems": [
-                {
-                  "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumablePoop.PrimalItemConsumablePoop'",
-                  "quantityPerItem": 1,
-                  "maxQuantityPerCycle": 0,
-                  "maxQuantityInTerminal": 0
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-
-    {
-      "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/Archaeopteryx/Archa_Character_BP.Archa_Character_BP'",
-      "chanceToProduce": 1,
-      "produces": [
-        {
-          "intervalSeconds": 300,
-          "itemSelectMode": 0,
-          "items": [
-            {
-              "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Sap.PrimalItemResource_Sap'",
-              "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 10000,
-              "quantityPerDino": 1,
-              "alternateSelectMode": 0,
-              "alternateItemsChance": 0,
-              "alternateItems": [],
-              "comsumesSelectMode": 0,
-              "consumesItemsChance": 0,
-              "consumesItems": []
-            }
-          ]
-        }
-      ]
-    },
-
-    {
-      "dinoType": "Blueprint'/Game/ASA/Dinos/Archelon/Dinos/Archelon_Character_BP_ASA.Archelon_Character_BP_ASA'",
+      "dinoType": "Blueprint'/Game/ScorchedEarth/Dinos/ThornyDragon/SpineyLizard_Character_BP.SpineyLizard_Character_BP'",
       "chanceToProduce": 1,
       "produces": [
         {
@@ -435,214 +631,18 @@
           "itemSelectMode": 0,
           "items": [
             {
-              "bpPath": "Blueprint'/Game/ASA/Dinos/Archelon/Dinos/Consumables/PrimalItemConsumable_Veggie_TurtleAlgae_ASA.PrimalItemConsumable_Veggie_TurtleAlgae_ASA'",
-              "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 10000,
-              "quantityPerDino": 1,
-              "alternateSelectMode": 0,
-              "alternateItemsChance": 0,
-              "alternateItems": [],
-              "comsumesSelectMode": 0,
-              "consumesItemsChance": 0,
-              "consumesItems": []
-            }
-          ]
-        }
-      ]
-    },
-
-    {
-      "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/Sheep/Sheep_Character_BP.Sheep_Character_BP'",
-      "chanceToProduce": 1,
-      "produces": [
-        {
-          "intervalSeconds": 900,
-          "itemSelectMode": 0,
-          "items": [
-            {
-              "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Wool.PrimalItemResource_Wool'",
-              "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 10000,
-              "quantityPerDino": 1,
-              "alternateSelectMode": 0,
-              "alternateItemsChance": 0,
-              "alternateItems": [],
-              "comsumesSelectMode": 0,
-              "consumesItemsChance": 0,
-              "consumesItems": []
-            }
-          ]
-        }
-      ]
-    },
-
-    {
-      "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/Sheep/Sheep_Character_BP_Aberrant.Sheep_Character_BP_Aberrant'",
-      "chanceToProduce": 1,
-      "produces": [
-        {
-          "intervalSeconds": 900,
-          "itemSelectMode": 0,
-          "items": [
-            {
-              "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Wool.PrimalItemResource_Wool'",
-              "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 10000,
-              "quantityPerDino": 1,
-              "alternateSelectMode": 0,
-              "alternateItemsChance": 0,
-              "alternateItems": [],
-              "comsumesSelectMode": 0,
-              "consumesItemsChance": 0,
-              "consumesItems": []
-            }
-          ]
-        }
-      ]
-    },
-
-    {
-      "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/Kairuku/Kairuku_Character_BP.Kairuku_Character_BP'",
-      "chanceToProduce": 1,
-      "produces": [
-        {
-          "intervalSeconds": 900,
-          "itemSelectMode": 0,
-          "items": [
-            {
-              "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Polymer_Organic.PrimalItemResource_Polymer_Organic'",
-              "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 10000,
-              "quantityPerDino": 1,
-              "alternateSelectMode": 0,
-              "alternateItemsChance": 0,
-              "alternateItems": [],
-              "comsumesSelectMode": 0,
-              "consumesItemsChance": 0,
-              "consumesItems": []
-            }
-          ]
-        }
-      ]
-    },
-
-    {
-      "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/Dodo/Dodo_Character_BP.Dodo_Character_BP'",
-      "chanceToProduce": 1,
-      "produces": [
-        {
-          "intervalSeconds": 900,
-          "itemSelectMode": 0,
-          "items": [
-            {
-              "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Fiber.PrimalItemResource_Fiber'",
-              "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 50000,
-              "quantityPerDino": 10,
-              "alternateSelectMode": 0,
-              "alternateItemsChance": 0.25,
-              "alternateItems": [
-                {
-                  "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Thatch.PrimalItemResource_Thatch'",
-                  "quantityPerItem": 10,
-                  "maxQuantityPerCycle": 0,
-                  "maxQuantityInTerminal": 50000
-                }
-              ],
-              "comsumesSelectMode": 0,
-              "consumesItemsChance": 0,
-              "consumesItems": []
-            }
-          ]
-        }
-      ]
-    },
-
-    {
-      "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/Beaver/Beaver_Character_BP.Beaver_Character_BP'",
-      "chanceToProduce": 1,
-      "produces": [
-        {
-          "intervalSeconds": 600,
-          "itemSelectMode": 0,
-          "items": [
-            {
-              "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Wood.PrimalItemResource_Wood'",
-              "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 50000,
-              "quantityPerDino": 15,
-              "alternateSelectMode": 0,
-              "alternateItemsChance": 0.2,
-              "alternateItems": [
-                {
-                  "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareMushroom.PrimalItemResource_RareMushroom'",
-                  "quantityPerItem": 2,
-                  "maxQuantityPerCycle": 0,
-                  "maxQuantityInTerminal": 5000
-                }
-              ],
-              "comsumesSelectMode": 0,
-              "consumesItemsChance": 0,
-              "consumesItems": []
-            }
-          ]
-        }
-      ]
-    },
-
-    {
-      "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/Therizinosaurus/Therizino_Character_BP.Therizino_Character_BP'",
-      "chanceToProduce": 1,
-      "produces": [
-        {
-          "intervalSeconds": 600,
-          "itemSelectMode": 0,
-          "items": [
-            {
-              "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Fiber.PrimalItemResource_Fiber'",
-              "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 50000,
-              "quantityPerDino": 25,
-              "alternateSelectMode": 0,
-              "alternateItemsChance": 0.15,
-              "alternateItems": [
-                {
-                  "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Wood.PrimalItemResource_Wood'",
-                  "quantityPerItem": 10,
-                  "maxQuantityPerCycle": 0,
-                  "maxQuantityInTerminal": 50000
-                }
-              ],
-              "comsumesSelectMode": 0,
-              "consumesItemsChance": 0,
-              "consumesItems": []
-            }
-          ]
-        }
-      ]
-    },
-
-    {
-      "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/Ankylo/Ankylo_Character_BP.Ankylo_Character_BP'",
-      "chanceToProduce": 1,
-      "produces": [
-        {
-          "intervalSeconds": 900,
-          "itemSelectMode": 0,
-          "items": [
-            {
-              "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Metal.PrimalItemResource_Metal'",
+              "bpPath": "Blueprint'/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Sand.PrimalItemResource_Sand'",
               "maxQuantityPerCycle": 0,
               "maxQuantityInTerminal": 30000,
               "quantityPerDino": 10,
               "alternateSelectMode": 0,
-              "alternateItemsChance": 0.15,
+              "alternateItemsChance": 0.2,
               "alternateItems": [
                 {
-                  "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Obsidian.PrimalItemResource_Obsidian'",
+                  "bpPath": "Blueprint'/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Sulfur.PrimalItemResource_Sulfur'",
                   "quantityPerItem": 2,
                   "maxQuantityPerCycle": 0,
-                  "maxQuantityInTerminal": 5000
+                  "maxQuantityInTerminal": 8000
                 }
               ],
               "comsumesSelectMode": 0,
@@ -655,151 +655,23 @@
     },
 
     {
-      "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/Doedicurus/Doed_Character_BP.Doed_Character_BP'",
+      "dinoType": "Blueprint'/Game/ScorchedEarth/Dinos/Mantis/Mantis_Character_BP.Mantis_Character_BP'",
       "chanceToProduce": 1,
       "produces": [
         {
-          "intervalSeconds": 900,
+          "intervalSeconds": 5400,
           "itemSelectMode": 0,
           "items": [
             {
-              "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Stone.PrimalItemResource_Stone'",
+              "bpPath": "Blueprint'/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Sulfur.PrimalItemResource_Sulfur'",
               "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 100000,
-              "quantityPerDino": 50,
+              "maxQuantityInTerminal": 8000,
+              "quantityPerDino": 2,
               "alternateSelectMode": 0,
               "alternateItemsChance": 0.2,
               "alternateItems": [
                 {
-                  "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Flint.PrimalItemResource_Flint'",
-                  "quantityPerItem": 10,
-                  "maxQuantityPerCycle": 0,
-                  "maxQuantityInTerminal": 50000
-                }
-              ],
-              "comsumesSelectMode": 0,
-              "consumesItemsChance": 0,
-              "consumesItems": []
-            }
-          ]
-        }
-      ]
-    },
-
-    {
-      "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/Magmasaur/Magmasaur_Character_BP.Magmasaur_Character_BP'",
-      "chanceToProduce": 1,
-      "produces": [
-        {
-          "intervalSeconds": 1200,
-          "itemSelectMode": 0,
-          "items": [
-            {
-              "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ElementDust.PrimalItemResource_ElementDust'",
-              "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 200000,
-              "quantityPerDino": 150,
-              "alternateSelectMode": 0,
-              "alternateItemsChance": 0.1,
-              "alternateItems": [
-                {
-                  "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ElementShard.PrimalItemResource_ElementShard'",
-                  "quantityPerItem": 5,
-                  "maxQuantityPerCycle": 0,
-                  "maxQuantityInTerminal": 50000
-                }
-              ],
-              "comsumesSelectMode": 0,
-              "consumesItemsChance": 0,
-              "consumesItems": []
-            }
-          ]
-        }
-      ]
-    },
-
-    {
-      "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/Beelzebufo/Toad_Character_BP.Toad_Character_BP'",
-      "chanceToProduce": 1,
-      "produces": [
-        {
-          "intervalSeconds": 900,
-          "itemSelectMode": 0,
-          "items": [
-            {
-              "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Chitin.PrimalItemResource_Chitin'",
-              "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 50000,
-              "quantityPerDino": 10,
-              "alternateSelectMode": 0,
-              "alternateItemsChance": 0.2,
-              "alternateItems": [
-                {
-                  "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_CementingPaste.PrimalItemResource_CementingPaste'",
-                  "quantityPerItem": 2,
-                  "maxQuantityPerCycle": 0,
-                  "maxQuantityInTerminal": 20000
-                }
-              ],
-              "comsumesSelectMode": 0,
-              "consumesItemsChance": 0,
-              "consumesItems": []
-            }
-          ]
-        }
-      ]
-    },
-
-    {
-      "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/Gigantopithecus/Gigantopithecus_Character_BP.Gigantopithecus_Character_BP'",
-      "chanceToProduce": 1,
-      "produces": [
-        {
-          "intervalSeconds": 600,
-          "itemSelectMode": 0,
-          "items": [
-            {
-              "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Fiber.PrimalItemResource_Fiber'",
-              "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 50000,
-              "quantityPerDino": 15,
-              "alternateSelectMode": 0,
-              "alternateItemsChance": 0.15,
-              "alternateItems": [
-                {
-                  "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Thatch.PrimalItemResource_Thatch'",
-                  "quantityPerItem": 15,
-                  "maxQuantityPerCycle": 0,
-                  "maxQuantityInTerminal": 50000
-                }
-              ],
-              "comsumesSelectMode": 0,
-              "consumesItemsChance": 0,
-              "consumesItems": []
-            }
-          ]
-        }
-      ]
-    },
-
-    {
-      "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/Argentavis/Argent_Character_BP.Argent_Character_BP'",
-      "chanceToProduce": 1,
-      "produces": [
-        {
-          "intervalSeconds": 1200,
-          "itemSelectMode": 0,
-          "items": [
-            {
-              "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Keratin.PrimalItemResource_Keratin'",
-              "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 30000,
-              "quantityPerDino": 5,
-              "alternateSelectMode": 0,
-              "alternateItemsChance": 0.1,
-              "alternateItems": [
-                {
-                  "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Pelt.PrimalItemResource_Pelt'",
+                  "bpPath": "Blueprint'/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Sand.PrimalItemResource_Sand'",
                   "quantityPerItem": 10,
                   "maxQuantityPerCycle": 0,
                   "maxQuantityInTerminal": 30000
@@ -815,26 +687,26 @@
     },
 
     {
-      "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/Giganotosaurus/Gigant_Character_BP.Gigant_Character_BP'",
+      "dinoType": "Blueprint'/Game/Aberration/Dinos/RollRat/RollRat_Character_BP.RollRat_Character_BP'",
       "chanceToProduce": 1,
       "produces": [
         {
-          "intervalSeconds": 2400,
+          "intervalSeconds": 5400,
           "itemSelectMode": 0,
           "items": [
             {
-              "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Hide.PrimalItemResource_Hide'",
+              "bpPath": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_FungalWood.PrimalItemResource_FungalWood'",
               "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 200000,
-              "quantityPerDino": 50,
+              "maxQuantityInTerminal": 25000,
+              "quantityPerDino": 8,
               "alternateSelectMode": 0,
-              "alternateItemsChance": 0.15,
+              "alternateItemsChance": 0.25,
               "alternateItems": [
                 {
-                  "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RawPrimeMeat.PrimalItemResource_RawPrimeMeat'",
-                  "quantityPerItem": 5,
+                  "bpPath": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_Aberration_GasBalls.PrimalItemResource_Aberration_GasBalls'",
+                  "quantityPerItem": 2,
                   "maxQuantityPerCycle": 0,
-                  "maxQuantityInTerminal": 50000
+                  "maxQuantityInTerminal": 12000
                 }
               ],
               "comsumesSelectMode": 0,
@@ -847,26 +719,122 @@
     },
 
     {
-      "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/Rex/Rex_Character_BP.Rex_Character_BP'",
+      "dinoType": "Blueprint'/Game/Aberration/Dinos/Crab/Crab_Character_BP.Crab_Character_BP'",
       "chanceToProduce": 1,
       "produces": [
         {
-          "intervalSeconds": 1800,
+          "intervalSeconds": 7200,
           "itemSelectMode": 0,
           "items": [
             {
-              "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Large.PrimalItemConsumable_Kibble_Base_Large'",
+              "bpPath": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_Aberration_BlueGem.PrimalItemResource_Aberration_BlueGem'",
               "maxQuantityPerCycle": 0,
-              "maxQuantityInTerminal": 20000,
+              "maxQuantityInTerminal": 8000,
+              "quantityPerDino": 2,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0.35,
+              "alternateItems": [
+                {
+                  "bpPath": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_Aberration_GreenGem.PrimalItemResource_Aberration_GreenGem'",
+                  "quantityPerItem": 1,
+                  "maxQuantityPerCycle": 0,
+                  "maxQuantityInTerminal": 6000
+                }
+              ],
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "dinoType": "Blueprint'/Game/Aberration/Dinos/RockDrake/RockDrake_Character_BP.RockDrake_Character_BP'",
+      "chanceToProduce": 1,
+      "produces": [
+        {
+          "intervalSeconds": 10800,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_Aberration_RedGem.PrimalItemResource_Aberration_RedGem'",
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 5000,
               "quantityPerDino": 1,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0.25,
+              "alternateItems": [
+                {
+                  "bpPath": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_Aberration_BlueGem.PrimalItemResource_Aberration_BlueGem'",
+                  "quantityPerItem": 1,
+                  "maxQuantityPerCycle": 0,
+                  "maxQuantityInTerminal": 8000
+                }
+              ],
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "dinoType": "Blueprint'/Game/Extinction/Dinos/Gacha/Gacha_Character_BP.Gacha_Character_BP'",
+      "chanceToProduce": 1,
+      "produces": [
+        {
+          "intervalSeconds": 7200,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_ElementDust.PrimalItemResource_ElementDust'",
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 60000,
+              "quantityPerDino": 25,
               "alternateSelectMode": 0,
               "alternateItemsChance": 0.2,
               "alternateItems": [
                 {
-                  "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_ExtraLarge.PrimalItemConsumable_Kibble_Base_ExtraLarge'",
+                  "bpPath": "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_ScrapMetal.PrimalItemResource_ScrapMetal'",
+                  "quantityPerItem": 5,
+                  "maxQuantityPerCycle": 0,
+                  "maxQuantityInTerminal": 30000
+                }
+              ],
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "dinoType": "Blueprint'/Game/Extinction/Dinos/Enforcer/Enforcer_Character_BP.Enforcer_Character_BP'",
+      "chanceToProduce": 1,
+      "produces": [
+        {
+          "intervalSeconds": 10800,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_ElementDust.PrimalItemResource_ElementDust'",
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 60000,
+              "quantityPerDino": 30,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0.15,
+              "alternateItems": [
+                {
+                  "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Electronics.PrimalItemResource_Electronics'",
                   "quantityPerItem": 1,
                   "maxQuantityPerCycle": 0,
-                  "maxQuantityInTerminal": 20000
+                  "maxQuantityInTerminal": 8000
                 }
               ],
               "comsumesSelectMode": 0,
